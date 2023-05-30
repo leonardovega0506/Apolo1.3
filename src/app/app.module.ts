@@ -10,11 +10,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FormsModule} from '@angular/forms';
 
 import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { LoginComponent } from './views/login/login.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatButtonModule} from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
+import { RegistrosAdminComponent } from './views/admin/registros-admin/registros-admin.component';
+import { OrdenesAdminComponent } from './views/admin/ordenes-admin/ordenes-admin.component';
+import { ItemsAdminComponent } from './views/admin/items-admin/items-admin.component';
+import { UsuarioAdminComponent } from './views/admin/usuario-admin/usuario-admin.component';
+import { DetalleRegistrosAdminComponent } from './views/admin/detalle-registros-admin/detalle-registros-admin.component';
+import { DetallesOrdenesAdminComponent } from './views/admin/detalles-ordenes-admin/detalles-ordenes-admin.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +31,13 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     DashboardAdminComponent,
     SidebarAdminComponent,
     TopbarAdminComponent,
-    LoginComponent
+    LoginComponent,
+    RegistrosAdminComponent,
+    OrdenesAdminComponent,
+    ItemsAdminComponent,
+    UsuarioAdminComponent,
+    DetalleRegistrosAdminComponent,
+    DetallesOrdenesAdminComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +48,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatTooltipModule,
     MatToolbarModule,
     MatFormFieldModule,
-    FormsModule
+    FormsModule,
+    MatButtonModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

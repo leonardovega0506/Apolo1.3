@@ -8,8 +8,8 @@ export class MenuItem {
 }
 
 export const menuList = [
-    new MenuItem('Registros', 'chemistry', 'chemistry class material', 'access_time'),
-    new MenuItem('Ordenes', 'biology', 'biology class material', 'receipt'),
-    new MenuItem('Productos', 'mathematics', 'mathematics class material', 'store'),
-    new MenuItem('Usuarios', 'physics', 'physics class material', 'group')
+    new MenuItem('Registros', 'registros', 'Registros', 'access_time'),
+    new MenuItem('Ordenes', 'ordenes', 'Ordenes', 'receipt'),
+    new MenuItem('Productos', 'items', 'Items', 'store'),
+    new MenuItem('Usuarios', 'usuarios', 'Usuarios', 'group')
 ];
